@@ -1,0 +1,1642 @@
+{
+  "agent_conversations": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "message_count": {
+      "type": "number"
+    },
+    "last_message_at": {
+      "type": "text"
+    },
+    "is_archived": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "agent_test_cases": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "input": {
+      "type": "text"
+    },
+    "expected_output": {
+      "type": "text"
+    },
+    "assertion_type": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "agent_test_results": {
+    "id": {
+      "type": "text"
+    },
+    "run_id": {
+      "type": "text"
+    },
+    "test_case_id": {
+      "type": "text"
+    },
+    "status": {
+      "type": "text"
+    },
+    "actual_output": {
+      "type": "text"
+    },
+    "error_message": {
+      "type": "text"
+    },
+    "latency_ms": {
+      "type": "number"
+    },
+    "cost_usd": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "agent_test_runs": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "status": {
+      "type": "text"
+    },
+    "total_cases": {
+      "type": "number"
+    },
+    "passed_cases": {
+      "type": "number"
+    },
+    "failed_cases": {
+      "type": "number"
+    },
+    "total_latency_ms": {
+      "type": "number"
+    },
+    "total_cost_usd": {
+      "type": "number"
+    },
+    "started_at": {
+      "type": "text"
+    },
+    "completed_at": {
+      "type": "text"
+    }
+  },
+  "agent_tools": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "tool_type": {
+      "type": "text"
+    },
+    "tool_name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "config": {
+      "type": "json"
+    },
+    "enabled": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "agent_variables": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "key": {
+      "type": "text"
+    },
+    "label": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "default_value": {
+      "type": "text"
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "agent_versions": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "version": {
+      "type": "number"
+    },
+    "system_prompt": {
+      "type": "text"
+    },
+    "model": {
+      "type": "text"
+    },
+    "temperature": {
+      "type": "number"
+    },
+    "max_tokens": {
+      "type": "number"
+    },
+    "change_note": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "deploy_status": {
+      "type": "text"
+    },
+    "canary_percent": {
+      "type": "number"
+    }
+  },
+  "agents": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "system_prompt": {
+      "type": "text"
+    },
+    "model": {
+      "type": "text"
+    },
+    "temperature": {
+      "type": "number"
+    },
+    "max_tokens": {
+      "type": "number"
+    },
+    "visibility": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "version": {
+      "type": "number"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    },
+    "share_token": {
+      "type": "text"
+    },
+    "output_schema": {
+      "type": "text"
+    },
+    "output_schema_strict": {
+      "type": "boolean"
+    },
+    "voice_config": {
+      "type": "text"
+    }
+  },
+  "api_keys": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "key_prefix": {
+      "type": "text"
+    },
+    "key_hash": {
+      "type": "text"
+    },
+    "last_used_at": {
+      "type": "text"
+    },
+    "expires_at": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "automation_runs": {
+    "id": {
+      "type": "text"
+    },
+    "automation_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "status": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "json"
+    },
+    "output": {
+      "type": "text"
+    },
+    "error_message": {
+      "type": "text"
+    },
+    "started_at": {
+      "type": "text"
+    },
+    "ended_at": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "automations": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "trigger_type": {
+      "type": "text"
+    },
+    "trigger_config": {
+      "type": "json"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "input_template": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "last_run_at": {
+      "type": "text"
+    },
+    "next_run_at": {
+      "type": "text"
+    },
+    "run_count": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "conversation_messages": {
+    "id": {
+      "type": "text"
+    },
+    "conversation_id": {
+      "type": "text"
+    },
+    "role": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "token_count": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "conversations": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "last_message_preview": {
+      "type": "text"
+    },
+    "message_count": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "custom_tools": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "endpoint_url": {
+      "type": "text"
+    },
+    "method": {
+      "type": "text"
+    },
+    "headers": {
+      "type": "json"
+    },
+    "body_template": {
+      "type": "text"
+    },
+    "response_path": {
+      "type": "text"
+    },
+    "parameters": {
+      "type": "json"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "execution_logs": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "conversation_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "status": {
+      "type": "text"
+    },
+    "input": {
+      "type": "text"
+    },
+    "output": {
+      "type": "text"
+    },
+    "variables_used": {
+      "type": "json"
+    },
+    "model": {
+      "type": "text"
+    },
+    "input_tokens": {
+      "type": "number"
+    },
+    "output_tokens": {
+      "type": "number"
+    },
+    "cost_usd": {
+      "type": "number"
+    },
+    "latency_ms": {
+      "type": "number"
+    },
+    "feedback": {
+      "type": "text"
+    },
+    "error_message": {
+      "type": "text"
+    },
+    "started_at": {
+      "type": "text"
+    },
+    "ended_at": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "debug_trace": {
+      "type": "text"
+    }
+  },
+  "flow_edges": {
+    "id": {
+      "type": "text"
+    },
+    "flow_id": {
+      "type": "text"
+    },
+    "source_node_id": {
+      "type": "text"
+    },
+    "target_node_id": {
+      "type": "text"
+    },
+    "type": {
+      "type": "text"
+    },
+    "label": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "flow_nodes": {
+    "id": {
+      "type": "text"
+    },
+    "flow_id": {
+      "type": "text"
+    },
+    "type": {
+      "type": "text"
+    },
+    "position": {
+      "type": "json"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "condition": {
+      "type": "text"
+    },
+    "data": {
+      "type": "json"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "flows": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "image_prompt_templates": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "prompt_template": {
+      "type": "text"
+    },
+    "negative_prompt": {
+      "type": "text"
+    },
+    "style_category": {
+      "type": "text"
+    },
+    "default_model": {
+      "type": "text"
+    },
+    "default_aspect_ratio": {
+      "type": "text"
+    },
+    "default_image_size": {
+      "type": "text"
+    },
+    "is_public": {
+      "type": "boolean"
+    },
+    "use_count": {
+      "type": "number"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "integrations": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "type": {
+      "type": "text"
+    },
+    "config": {
+      "type": "json"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "knowledge_bases": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "document_count": {
+      "type": "number"
+    },
+    "chunk_count": {
+      "type": "number"
+    },
+    "total_tokens": {
+      "type": "number"
+    },
+    "embedding_model": {
+      "type": "text"
+    },
+    "embedding_dimensions": {
+      "type": "number"
+    },
+    "chunk_size": {
+      "type": "number"
+    },
+    "chunk_overlap": {
+      "type": "number"
+    },
+    "status": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "knowledge_chunks": {
+    "id": {
+      "type": "text"
+    },
+    "document_id": {
+      "type": "text"
+    },
+    "knowledge_base_id": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "embedding": {
+      "type": "json"
+    },
+    "chunk_index": {
+      "type": "number"
+    },
+    "token_count": {
+      "type": "number"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "knowledge_documents": {
+    "id": {
+      "type": "text"
+    },
+    "knowledge_base_id": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "source_type": {
+      "type": "text"
+    },
+    "original_content": {
+      "type": "text"
+    },
+    "content_hash": {
+      "type": "text"
+    },
+    "chunk_count": {
+      "type": "number"
+    },
+    "token_count": {
+      "type": "number"
+    },
+    "status": {
+      "type": "text"
+    },
+    "error_message": {
+      "type": "text"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "marketplace_listings": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "published_by": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "fork_count": {
+      "type": "number"
+    },
+    "like_count": {
+      "type": "number"
+    },
+    "review_count": {
+      "type": "number"
+    },
+    "average_rating": {
+      "type": "number"
+    },
+    "published_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    },
+    "category": {
+      "type": "text"
+    },
+    "status": {
+      "type": "text"
+    },
+    "install_count": {
+      "type": "number"
+    },
+    "rating_sum": {
+      "type": "number"
+    },
+    "rating_count": {
+      "type": "number"
+    },
+    "snapshot_system_prompt": {
+      "type": "text"
+    },
+    "snapshot_model": {
+      "type": "text"
+    },
+    "snapshot_temperature": {
+      "type": "number"
+    },
+    "snapshot_max_tokens": {
+      "type": "number"
+    },
+    "long_description": {
+      "type": "text"
+    },
+    "thumbnail_url": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "marketplace_reviews": {
+    "id": {
+      "type": "text"
+    },
+    "listing_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "messages": {
+    "id": {
+      "type": "text"
+    },
+    "conversation_id": {
+      "type": "text"
+    },
+    "role": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "tool_uses": {
+      "type": "json"
+    },
+    "input_tokens": {
+      "type": "number"
+    },
+    "output_tokens": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "attachments": {
+      "type": "json"
+    }
+  },
+  "profiles": {
+    "id": {
+      "type": "text"
+    },
+    "email": {
+      "type": "text"
+    },
+    "full_name": {
+      "type": "text"
+    },
+    "avatar_url": {
+      "type": "text"
+    },
+    "github_username": {
+      "type": "text"
+    },
+    "plan": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "prompt_snippets": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "category": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "use_count": {
+      "type": "number"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "provider_api_keys": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "provider": {
+      "type": "text"
+    },
+    "encrypted_key": {
+      "type": "text"
+    },
+    "iv": {
+      "type": "text"
+    },
+    "auth_tag": {
+      "type": "text"
+    },
+    "key_hint": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "last_verified_at": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "skill_executions": {
+    "id": {
+      "type": "text"
+    },
+    "skill_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "original_input": {
+      "type": "text"
+    },
+    "resolved_input": {
+      "type": "text"
+    },
+    "output": {
+      "type": "text"
+    },
+    "status": {
+      "type": "text"
+    },
+    "error_message": {
+      "type": "text"
+    },
+    "was_auto_created": {
+      "type": "boolean"
+    },
+    "latency_ms": {
+      "type": "number"
+    },
+    "cost_usd": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "skill_versions": {
+    "id": {
+      "type": "text"
+    },
+    "skill_id": {
+      "type": "text"
+    },
+    "version": {
+      "type": "number"
+    },
+    "system_prompt": {
+      "type": "text"
+    },
+    "model": {
+      "type": "text"
+    },
+    "temperature": {
+      "type": "number"
+    },
+    "max_tokens": {
+      "type": "number"
+    },
+    "trigger_keywords": {
+      "type": "json"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "change_summary": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "skills": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "skill_type": {
+      "type": "text"
+    },
+    "trigger_keywords": {
+      "type": "json"
+    },
+    "intent_description": {
+      "type": "text"
+    },
+    "system_prompt": {
+      "type": "text"
+    },
+    "model": {
+      "type": "text"
+    },
+    "temperature": {
+      "type": "number"
+    },
+    "max_tokens": {
+      "type": "number"
+    },
+    "input_template": {
+      "type": "text"
+    },
+    "workflow_steps": {
+      "type": "json"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "is_auto_generated": {
+      "type": "boolean"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "use_count": {
+      "type": "number"
+    },
+    "last_used_at": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "usage_stats": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "period_start": {
+      "type": "text"
+    },
+    "period_end": {
+      "type": "text"
+    },
+    "total_requests": {
+      "type": "number"
+    },
+    "successful_requests": {
+      "type": "number"
+    },
+    "failed_requests": {
+      "type": "number"
+    },
+    "total_input_tokens": {
+      "type": "number"
+    },
+    "total_output_tokens": {
+      "type": "number"
+    },
+    "total_cost_usd": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "webhook_tokens": {
+    "id": {
+      "type": "text"
+    },
+    "automation_id": {
+      "type": "text"
+    },
+    "token": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "workspace_cost_limits": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "monthly_limit_usd": {
+      "type": "number"
+    },
+    "alert_threshold_percent": {
+      "type": "number"
+    },
+    "is_hard_limit": {
+      "type": "boolean"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "workspace_members": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "role": {
+      "type": "text"
+    },
+    "invited_by": {
+      "type": "text"
+    },
+    "joined_at": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "workspaces": {
+    "id": {
+      "type": "text"
+    },
+    "owner_id": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "slug": {
+      "type": "text"
+    },
+    "avatar_url": {
+      "type": "text"
+    },
+    "plan": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "agent_memories": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "memory_type": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    },
+    "embedding": {
+      "type": "json"
+    },
+    "source_conversation_id": {
+      "type": "text"
+    },
+    "importance": {
+      "type": "number"
+    },
+    "access_count": {
+      "type": "number"
+    },
+    "last_accessed_at": {
+      "type": "text"
+    },
+    "expires_at": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "eval_suites": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "eval_cases": {
+    "id": {
+      "type": "text"
+    },
+    "suite_id": {
+      "type": "text"
+    },
+    "input": {
+      "type": "text"
+    },
+    "expected_output": {
+      "type": "text"
+    },
+    "eval_criteria": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "sort_order": {
+      "type": "number"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "eval_runs": {
+    "status": {
+      "type": "text"
+    },
+    "id": {
+      "type": "text"
+    },
+    "suite_id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "agent_version": {
+      "type": "number"
+    },
+    "model_override": {
+      "type": "text"
+    },
+    "prompt_override": {
+      "type": "text"
+    },
+    "label": {
+      "type": "text"
+    },
+    "total_cases": {
+      "type": "number"
+    },
+    "passed_cases": {
+      "type": "number"
+    },
+    "avg_score": {
+      "type": "number"
+    },
+    "total_cost_usd": {
+      "type": "number"
+    },
+    "total_latency_ms": {
+      "type": "number"
+    },
+    "results": {
+      "type": "text"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "completed_at": {
+      "type": "text"
+    }
+  },
+  "flow_runs": {
+    "id": {
+      "type": "text"
+    },
+    "flow_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "status": {
+      "type": "text"
+    },
+    "input": {
+      "type": "text"
+    },
+    "output": {
+      "type": "text"
+    },
+    "node_results": {
+      "type": "text"
+    },
+    "paused_at_node_id": {
+      "type": "text"
+    },
+    "total_cost_usd": {
+      "type": "number"
+    },
+    "total_latency_ms": {
+      "type": "number"
+    },
+    "error_message": {
+      "type": "text"
+    },
+    "started_at": {
+      "type": "text"
+    },
+    "ended_at": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    }
+  },
+  "agent_guardrails": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "input_injection_check": {
+      "type": "boolean"
+    },
+    "input_blocked_patterns": {
+      "type": "json"
+    },
+    "output_pii_check": {
+      "type": "boolean"
+    },
+    "output_pii_mask": {
+      "type": "boolean"
+    },
+    "output_blocked_patterns": {
+      "type": "json"
+    },
+    "mode": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "agent_pipelines": {
+    "id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "steps": {
+      "type": "text"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "created_by": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "updated_at": {
+      "type": "text"
+    }
+  },
+  "pipeline_runs": {
+    "id": {
+      "type": "text"
+    },
+    "pipeline_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "status": {
+      "type": "text"
+    },
+    "input": {
+      "type": "text"
+    },
+    "output": {
+      "type": "text"
+    },
+    "step_results": {
+      "type": "text"
+    },
+    "total_cost_usd": {
+      "type": "number"
+    },
+    "total_latency_ms": {
+      "type": "number"
+    },
+    "error_message": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "completed_at": {
+      "type": "text"
+    }
+  },
+  "voice_sessions": {
+    "id": {
+      "type": "text"
+    },
+    "agent_id": {
+      "type": "text"
+    },
+    "conversation_id": {
+      "type": "text"
+    },
+    "workspace_id": {
+      "type": "text"
+    },
+    "user_id": {
+      "type": "text"
+    },
+    "tts_provider": {
+      "type": "text"
+    },
+    "tts_voice": {
+      "type": "text"
+    },
+    "language": {
+      "type": "text"
+    },
+    "created_at": {
+      "type": "text"
+    },
+    "ended_at": {
+      "type": "text"
+    }
+  }
+}

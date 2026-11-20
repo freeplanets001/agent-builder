@@ -1,0 +1,637 @@
+{
+  "deployment": "dpl_7i4BFu2RKWdZAHNVxBTpzd7Fa5Ag",
+  "files": [
+    {
+      "path": "app/(auth)/login/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/agents/[id]/edit/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/agents/[id]/evaluate/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/agents/[id]/play/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/agents/[id]/versions/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/agents/new/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/agents/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/analytics/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/automations/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/flows/[id]/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/flows/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/image/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/knowledge/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/logs/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/manual/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/marketplace/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/mcp/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/pipelines/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/settings/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/skills/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/layout.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/(dashboard)/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/evaluate/suites/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/evaluate/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/memory/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/optimize/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/run/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/test/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/versions/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/voice/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/[id]/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/collaborate/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/pipeline/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/agents/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/ai/generate-prompt/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/analytics/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/api-keys/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/auth/callback/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/automations/[id]/run/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/automations/[id]/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/automations/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/flows/[id]/run/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/flows/[id]/runs/[runId]/resume/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/flows/[id]/runs/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/flows/[id]/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/flows/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/image/batch/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/image/edit/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/image/generate/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/image/templates/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/knowledge/[id]/documents/[docId]/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/knowledge/[id]/documents/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/knowledge/[id]/upload/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/knowledge/[id]/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/knowledge/search/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/knowledge/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/logs/export/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/logs/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/marketplace/[id]/install/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/marketplace/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/orchestrator/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/pipelines/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/settings/api-keys/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/settings/cost-limits/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/skills/[id]/versions/[version]/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/skills/[id]/versions/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/skills/[id]/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/skills/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/api/webhooks/[token]/route.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/globals.css",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/layout.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "app/page.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/agents/AgentCard.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/agents/AgentForm.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/agents/EvaluationDashboard.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/agents/ModelSelector.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/agents/Playground.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/agents/ToolSelector.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/agents/VersionDashboard.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/flows/FlowEditor.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/layout/BottomNav.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/layout/Sidebar.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/pipelines/PipelineDashboard.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/ui/Button.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/ui/Input.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "components/ui/Modal.tsx",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "docs/progress.md",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/ai-providers/anthropic.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/ai-providers/google.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/ai-providers/openai.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/ai-providers/types.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/evaluation/evaluator.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/evaluation/scorers.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/voice/tts.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/agent-communication.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/agent-memory.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/ai-client.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/api-auth.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/chunker.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/conversation-memory.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/cost-guard.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/crypto.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/database.types.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/debug-tracer.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/embedding.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/flow-engine.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/guardrails.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/rag-context.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/rate-limiter.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/structured-output.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/supabase-server.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/supabase.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/tool-executor.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "lib/types.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "mcp-server/dist/index.d.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "mcp-server/dist/index.js",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "mcp-server/src/index.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "mcp-server/package.json",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "mcp-server/tsconfig.json",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "public/file.svg",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "public/globe.svg",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "public/next.svg",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "public/vercel.svg",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "public/window.svg",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/agent-memory-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/agent-tests-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/apply-all-missing.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/automation-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/conversation-memory-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/cost-limits-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/debug-trace-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/evaluation-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/fix-rls-recursion.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/flow-runs-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/guardrails-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/image-templates-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/knowledge-base-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/marketplace-alter.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/marketplace-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/multimodal-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/pipelines-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/provider-api-keys-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/skills-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/structured-output-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/versioning-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/voice-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "supabase/web-browse-tool-schema.sql",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "AGENTS.md",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "CLAUDE.md",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "README.md",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "middleware.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "next-env.d.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "next.config.ts",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "package.json",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "status": "verified-recovered"
+    },
+    {
+      "path": "tsconfig.json",
+      "status": "verified-recovered"
+    }
+  ]
+}

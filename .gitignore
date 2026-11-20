@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.open-next/
+.wrangler/
+.env*
+.dev.vars*
+.vercel/
+*.tsbuildinfo
+.vercel
+
+# Phase 0 additions (2026-11-21)
+dist/
+.DS_Store

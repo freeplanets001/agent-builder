@@ -1,0 +1,25 @@
+name = "agent-builder-preview"
+main = ".open-next/worker.js"
+compatibility_date = "2026-10-31"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+[observability]
+enabled = true
+
+[vars]
+BETTER_AUTH_URL = "https://agent-builder-preview.freeplanets001.workers.dev"
+GITHUB_CLIENT_ID = "Ov23liTX3ROe8f3AXvBr"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "agent-builder-preview"
+database_id = "b0dd7c56-8eb2-47c7-9f54-4abf81ca2986"
+migrations_dir = "migrations"
+
+[[r2_buckets]]
+binding = "OUTPUTS"
+bucket_name = "agent-builder-outputs-preview"
